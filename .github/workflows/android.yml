@@ -22,7 +22,7 @@ jobs:
           java-version: '17'
 
       - name: 配置 Gradle
-        uses: gradle/actions/setup-gradle@v4
+        uses: gradle/actions/setup-gradle@v6
 
       - name: 编译 Debug APK
         run: ./gradlew :app:assembleDebug --stacktrace
