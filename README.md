@@ -12,6 +12,18 @@
 - **最新正式版**：[Releases 页面](https://github.com/xmsu7m-art/opentoolbox/releases/latest) 下载 APK（推荐）
 - **开发版**：每次提交后由 [Android CI](https://github.com/xmsu7m-art/opentoolbox/actions/workflows/android.yml) 自动产出（Actions 页面 → 最新 run → Artifacts）
 
+## 预览
+
+> 以下为同名网页版（Step Studio「工具匣」，与本应用同设计语言）的运行截图。
+
+| 深色首页 | 浅色首页 | 新增工具分组 |
+| --- | --- | --- |
+| ![深色首页](docs/screenshots/01-home-dark.png) | ![浅色首页](docs/screenshots/02-home-light.png) | ![新增工具分组](docs/screenshots/03-home-new-tools.png) |
+
+| 设置页·主题切换 | 深色设置页 | 颜色工具 |
+| --- | --- | --- |
+| ![设置页主题切换](docs/screenshots/04-settings-theme.png) | ![深色设置页](docs/screenshots/05-settings-dark.png) | ![颜色工具](docs/screenshots/06-color-tool.png) |
+
 - Kotlin 2.0 + Jetpack Compose（Material 3）
 - 最低支持 Android 8.0（minSdk 26），目标 Android 15（targetSdk 35）
 - 无任何第三方 SDK、无统计埋点、无广告
