@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 电池小部件背景：深色半透明圆角矩形。 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#CC1C1B1E" />
+    <corners android:radius="14dp" />
+</shape>

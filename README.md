@@ -1,7 +1,16 @@
 # 全能工具箱 OpenToolbox
 
+[![Android CI](https://github.com/xmsu7m-art/opentoolbox/actions/workflows/android.yml/badge.svg)](https://github.com/xmsu7m-art/opentoolbox/actions/workflows/android.yml)
+[![Release](https://img.shields.io/github/v/release/xmsu7m-art/opentoolbox)](https://github.com/xmsu7m-art/opentoolbox/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 仿照开源项目 [essentials](https://github.com/sameerasw/essentials) 打造的安卓全能工具箱：
 **完全开源、无广告**，集成电池监控、应用管理、ADB 快捷操作、设备信息等实用功能。
+
+## 下载
+
+- **最新正式版**：[Releases 页面](https://github.com/xmsu7m-art/opentoolbox/releases/latest) 下载 APK（推荐）
+- **开发版**：每次提交后由 [Android CI](https://github.com/xmsu7m-art/opentoolbox/actions/workflows/android.yml) 自动产出（Actions 页面 → 最新 run → Artifacts）
 
 - Kotlin 2.0 + Jetpack Compose（Material 3）
 - 最低支持 Android 8.0（minSdk 26），目标 Android 15（targetSdk 35）
@@ -29,6 +38,8 @@
 | 应用 | 应用管理 | 已装应用列表：搜索、按名称/大小排序、用户/系统过滤；详情页含版本、权限授予状态、打开/卸载/系统详情入口 |
 | ADB | 命令中心 | 35 条常用命令卡片：分类、搜索、一键复制、收藏、执行历史，附 Shizuku 免 root 说明 |
 | 设置 | 关于与数据 | 版本信息、开源说明、清除 ADB 收藏/历史 |
+| 系统 | 快捷磁贴 | 通知栏磁贴：手电筒开关、屏幕常亮（系统级，插电时生效） |
+| 系统 | 电池小部件 | 桌面小组件：电量百分比、充电状态、进度条，电量变化实时刷新 |
 
 ## 目录结构
 
